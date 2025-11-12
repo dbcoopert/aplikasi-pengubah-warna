@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-st.title("Smart Image Enhancement and Artistic Filter Application")
+st.title("Image Filtering App")
 
 # Upload gambar
 uploaded_file = st.file_uploader("Upload your image", type=["jpg", "jpeg", "png"])
